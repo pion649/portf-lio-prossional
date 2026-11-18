@@ -1,0 +1,59 @@
+/*configuração*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*configuração do Body*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    color:blueviolet;
+    line-height: 1.6;
+
+}
+/*configuração do Header*/
+header{
+    background-color: aqua;
+    color:brown;
+    padding: 20px 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid salmon;
+}
+
+header h1 {
+    font-size: 2,5rem;
+    color:orange
+
+}
+
+main{
+    width: 50%;
+    margin: 20px auto;  
+    max-width: 2000px;
+}
+
+nav{
+    background-color: #fb8fff;
+    text-align:start;
+}
+
+main img{
+    image-rendering: auto;
+    text-align: end;
+    flex-direction: row;
+    display: flex;
+
+}
+/*Seções*/
+section{
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 0px #fff0,0,0,0;
+}
+
